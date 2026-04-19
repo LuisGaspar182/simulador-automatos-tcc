@@ -121,7 +121,16 @@ Para guiar a implementação da pasta `automata/`:
 
 ## Estado atual
 
-Projeto recém-iniciado. Ambiente configurado com Vite + React. Próximo passo: criar estrutura de rotas e implementar as páginas de Menu e Conteúdo.
+Estrutura de rotas e páginas base implementadas. Componentes `Header`, `Footer` e `Layout` criados e compartilhados por todas as páginas. Sistema de variáveis CSS global em `src/index.css`. CSS Modules em todos os componentes.
+
+Páginas prontas:
+- **Home** (`/`) — landing page com acesso a Simuladores e Conteúdo
+- **Simuladores** (`/simuladores`) — card centralizado com 5 botões (Figura 4 do plano)
+- **Conteúdo** (`/conteudo`) — página teórica com seções sobre AFD, AFND, AP, MT e manual de uso (Figura 9 do plano)
+
+Rotas `/afd`, `/afnd`, `/apd`, `/apnd`, `/turing` existem mas redirecionam para `/simuladores` até serem implementadas.
+
+Próximo passo: implementar a página do simulador AFD com canvas react-konva.
 
 ---
 
